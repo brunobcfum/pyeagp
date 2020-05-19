@@ -1,0 +1,28 @@
+[
+    {
+        "protocol" : "gossip",
+        "network": "adhoc",
+        "sink_bat" : 100,
+        "model": "esp8266",
+        "tmax" : 60,
+        "simul_max" : 20000,
+        "speed_divider" : 0.5,
+        "comment" : "Battery in mAh"
+    },
+    {
+        "protocol" : "eagp",
+        "node_bat" : 15,
+        "sink_bat" : 100,
+        "tmax" : 60,
+        "speed_divider" : 0.5,
+        "comment" : "Battery in mAh"
+    },
+    {
+        "protocol" : "mcfa",
+        "node_bat" : 15,
+        "sink_bat" : 100,
+        "tmax" : 60,
+        "speed_divider" : 0.5,
+        "comment" : "Battery in mAh"
+    },
+]
